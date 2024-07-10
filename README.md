@@ -1,26 +1,30 @@
 # Bug Tracking System
 
-This repository contains a Bug Tracking System developed using SQL for efficient management and tracking of software bugs.
+Welcome to the Bug Tracking System repository! This project is designed to streamline the process of bug reporting and resolution within software development teams. Whether you're a developer, QA engineer, or project manager, this system provides a robust platform to manage and track software bugs efficiently.
 
-## Features
+## Key Features
 
-- **Bug Reporting**: Allows users to report bugs with detailed descriptions.
-- **Bug Tracking**: Tracks the status of bugs from reported to resolved.
-- **User Management**: Manages user roles and permissions for bug tracking.
-- **Data Management**: Efficiently stores bug-related data using SQL database management systems.
+- **Bug Reporting**: Easily report bugs with detailed descriptions, priority levels, and screenshots.
+- **Bug Tracking**: Track the lifecycle of bugs from initial report through to resolution and closure.
+- **User Management**: Manage user roles and permissions to control access to bug tracking features.
+- **Dashboard and Reports**: Visualize bug statistics, trends, and status updates through interactive dashboards and reports.
+- **Integration**: Seamlessly integrates with existing development tools and workflows.
 
 ## Technologies Used
 
-- **SQL**: Used for database management and querying.
-- **MySQL**: Specific implementation for relational database management.
-- **DBMS**: Database Management System for efficient storage and retrieval of bug data.
+This system is built using SQL for database management, providing a scalable and reliable foundation for storing and retrieving bug-related data. MySQL is specifically utilized as the relational database management system to ensure efficient data organization and retrieval.
 
-## Setup
+## How to Use
 
-To set up and run the Bug Tracking System locally:
+To get started with the Bug Tracking System:
 
-1. Clone the repository:
+1. **Clone the Repository**: Clone this repository to your local machine.
+
+2. **Set Up the Database**: Create a MySQL database and import the provided `schema.sql` to initialize the necessary tables.
+
+3. **Configure Connection**: Update the database connection settings in `config.py` or equivalent configuration file.
+
+4. **Run the Application**: Start the application using your preferred Python environment:
 
    ```bash
-   git clone https://github.com/your-username/bug-tracking-system.git
-   cd bug-tracking-system
+   python app.py
